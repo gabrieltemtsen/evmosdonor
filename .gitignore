@@ -1,25 +1,28 @@
-node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
 node_modules
-.env
+.DS_Store
+dist
+dist-ssr
 coverage
-coverage.json
-typechain
-typechain-types
+*.local
 
-# Hardhat files
-cache
-artifacts
+/cypress/videos/
+/cypress/screenshots/
 
-
-node_modules
-.env
-coverage
-coverage.json
-typechain
-typechain-types
-
-# Hardhat files
-cache
-artifacts
-
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
