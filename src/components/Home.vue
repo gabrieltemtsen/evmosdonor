@@ -8,12 +8,7 @@ defineProps<{
 }>()
 const account = ref();
 const {ethereum} =window;
-//Enable Web3
-async function loadWeb3(){
-    if(ethereum) {
-        window.web3 = new Web3(ethereum);
-    }
-}
+
 const connectToWallet = async () => {
 // const provider = new ethers.providers.Web3Provider(ethereum); 
 // await provider.send("eth_requestAccounts", []); 
