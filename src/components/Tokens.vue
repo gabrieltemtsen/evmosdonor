@@ -10,10 +10,7 @@ const getData = async () => {
       {
         headers: {
           "Content-type": "application/json",
-          auth: {
-            username: "ckey_65e10abf7c2743c99f1d646a289",
-            password: ''
-          } 
+         
         },
       }
     );
